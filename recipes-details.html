@@ -19,7 +19,7 @@
 	<header class="header">
 		<div class="container">
 			<div class="header__inner">
-				<a href="#" class="logo">
+				<a href="index.html" class="logo">
 					<img src="img/logo.svg" alt="">
 				</a>
 				<nav class="menu">
@@ -32,7 +32,7 @@
 					</button>
 					<ul class="menu__list">
 						<li class="menu__item">
-							<a href="#" class="menu__link">Home</a>
+							<a href="index.html" class="menu__link">Home</a>
 						</li>
 						<li class="menu__item">
 							<a href="#" class="menu__link">Recipes</a>
@@ -71,329 +71,309 @@
 		</div>
 	</header>
 	<main class="main">
-		<section class="top">
+		<section class="video-recipes">
 			<div class="container">
-				<div class="top__inner">
-					<div class="top__inner-text">
-						<a href="#" class="top__link-recipes">
-							<img src="img/paper.png" alt="">
-							<p>Hot Recipes</p>
-						</a>
-						<h2 class="top__title title">
-							Spicy delicious chicken wings
-						</h2>
-						<p class="top__text">
-							Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et
-							dolore magna aliqut enim ad minim
-						</p>
-						<div class="top__links links">
-							<a href="#" class="top__link link">
-								<img src="img/timer.svg" alt="">
-								<p class="time__text">30 Minutes</p>
-							</a>
-							<a href="#" class="top__link link">
-								<img src="img/food.svg" alt="">
-								<p class="time__text">Chicken</p>
-							</a>
-						</div>
-						<div class="top__bottom">
-							<div class="top__author">
-								<img src="img/author.png" alt="" class="top__author-img">
-								<div class="top__author-info">
-									<p class="top__author-name">John Smith</p>
-									<data class="top__author-data" value="2022-03-15">15 March 2022</data>
+				<div class="video-recipes__top">
+					<div class="video-recipes__top-info">
+						<h2 class="video-recipes__top-title title">Health Japanese Fried Rice</h2>
+						<ul class="video-recipes__list">
+							<li class="video-recipes__item-author">
+								<div class="top__author">
+									<img src="img/author.png" alt="" class="top__author-img">
+									<div class="top__author-info">
+										<p class="top__author-name">John Smith</p>
+										<time class="top__author-data" value="2022-03-15">15 March 2022</time>
+									</div>
 								</div>
-							</div>
-							<div class="top__more">
-								<a href="#" class="top__more-link">
-									<p class="top__more-text">View Recipes</p>
-									<img src="img/play.svg" alt="" class="top__more-img">
+							</li>
+							<li class="video-recipes__item">
+								<div class="video-recipes__box">
+									<img src="img/timer.svg" alt="">
+									<div class="video-recipes__info">
+										<p class=" top-text">PREP TIME</p>
+										<p class=" bottom-text">15 Minutes</p>
+									</div>
+								</div>
+							</li>
+							<li class="video-recipes__item">
+								<div class="video-recipes__box">
+									<img src="img/timer.svg" alt="">
+									<div class="video-recipes__info">
+										<p class=" top-text">COOK TIME</p>
+										<p class=" bottom-text">15 Minutes</p>
+									</div>
+								</div>
+							</li>
+							<li class="video-recipes__item">
+								<div class="video-recipes__box">
+									<img src="img/food.svg" alt="">
+									<div class="video-recipes__info">
+										<p class=" bottom-text">Chicken</p>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<div class="video-recipes__action">
+						<ul class="video-recipes__action-list">
+							<li class="video-recipes__action-item">
+								<a href="#" class="video-recipes__action-link">
+									<img src="img/printer.svg" alt="" class="video-recipes__action-img">
 								</a>
-							</div>
+								<p class="video-recipes__action-text top-text">PRINT</p>
+							</li>
+							<li class="video-recipes__action-item">
+								<a href="#" class="video-recipes__action-link">
+									<img src="img/share.svg" alt="" class="video-recipes__action-img">
+								</a>
+								<p class="video-recipes__action-text top-text">SHARE</p>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="video-recipes__video">
+
+					<div class="video-container">
+						<video id="myVideo" poster="img/video.png">
+							<iframe src="https://www.youtube.com/" frameborder="0"> Your browser does
+								not support HTML5 video.</iframe>
+							video.
+						</video>
+						<a href="https://youtu.be/zZNhVv7fmSE?si=9IJPCT50cX-05ECP" target="_blank">
+							<button class=" play-btn" id="playBtn"></button></a>
+					</div>
+					<div class="video-info">
+						<h4 class="video-info__title">Nutrition Information</h4>
+						<ul class="video-info__list">
+							<li class="video-info__item">
+								<div class="item__text">
+									<p class="item__text-title">Calories</p>
+									<p>219.9 kcal</p>
+								</div>
+							</li>
+							<li class="video-info__item">
+								<div class="item__text">
+									<p class="item__text-title">Total Fat</p>
+									<p>10.7 g</p>
+								</div>
+							</li>
+							<li class="video-info__item">
+								<div class="item__text">
+									<p class="item__text-title">Protein</p>
+									<p>7.9 g</p>
+								</div>
+							</li>
+							<li class="video-info__item">
+								<div class="item__text">
+									<p class="item__text-title">Carbohydrate</p>
+									<p>22.3 g</p>
+								</div>
+							</li>
+							<li class="video-info__item">
+								<div class="item__text">
+									<p class="item__text-title">Cholesterol</p>
+									<p>37.4 mg</p>
+								</div>
+							</li>
+						</ul>
+						<p class="video-info__text">
+							adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+						</p>
+					</div>
+				</div>
+				<div class="video-text">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+						et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+						aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+						culpa qui officia deserunt mollit anim id est laborum.</p>
+				</div>
+			</div>
+		</section>
+		<section class="ingredients">
+			<div class="container">
+				<div class="ingredients-container">
+					<div class="ingredients-container__box">
+						<h2 class="ingredients-title title">Ingredients</h2>
+						<div class="ingredients-selection">
+							<h3 class="ingredients-subtitle subtitle">For main dish</h3>
+							<ul class="ingredients-list">
+								<li>
+									<label class="ingredients-item">
+										<input type="checkbox">
+										<span class="checkmark"></span>
+										<span class="ingredients-item__text">Lorem ipsum dolor sit amet</span>
+									</label>
+								</li>
+								<li>
+									<label class="ingredients-item">
+										<input type="checkbox">
+										<span class="checkmark"></span>
+										<span class="ingredients-item__text">Lorem ipsum dolor sit amet</span>
+									</label>
+								</li>
+								<li>
+									<label class="ingredients-item">
+										<input type="checkbox">
+										<span class="checkmark"></span>
+										<span class="ingredients-item__text">Lorem ipsum dolor sit amet</span>
+									</label>
+								</li>
+								<li>
+									<label class="ingredients-item">
+										<input type="checkbox">
+										<span class="checkmark"></span>
+										<span class="ingredients-item__text">Lorem ipsum dolor sit amet</span>
+									</label>
+								</li>
+							</ul>
+						</div>
+						<div class="sauce-selection">
+							<h3 class="sauce-title subtitle">For the sauce</h3>
+							<ul class="sauce-list">
+								<li>
+									<label class="sauce-item">
+										<input type="checkbox">
+										<span class="checkmark"></span>
+										<span class="sauce-item__text">Lorem ipsum dolor sit amet</span>
+									</label>
+								</li>
+								<li>
+									<label class="sauce-item">
+										<input type="checkbox">
+										<span class="checkmark"></span>
+										<span class="sauce-item__text">Lorem ipsum dolor sit amet</span>
+									</label>
+								</li>
+								<li>
+									<label class="sauce-item">
+										<input type="checkbox">
+										<span class="checkmark"></span>
+										<span class="sauce-item__text">Lorem ipsum dolor sit amet</span>
+									</label>
+								</li>
+							</ul>
 						</div>
 					</div>
-					<div class="top__img">
-						<img src="img/top-bg.png" alt="" class="top__img-bg">
-						<img src="img/good.svg" alt="" class="top__img-like">
+
+					<div class="other-recipes">
+						<div class="other-recipes__box">
+							<h3 class="other-recipes__title">Other Recipe</h3>
+							<ul class="other-recipes__list">
+								<li class="other-recipes__item">
+									<img src="img/recipes_img5.png" alt="" class="other-recipes__img">
+									<div class="other-recipes__item-box">
+										<h4 class="other-recipes__subtitle">Chicken Meatball with Creamy Chees...</h4>
+										<p class="other-recipes__text">By Andreas Paula</p>
+									</div>
+								</li>
+								<li class="other-recipes__item">
+									<img src="img/recipes_img8.png" alt="" class="other-recipes__img">
+									<div class="other-recipes__item-box">
+										<h4 class="other-recipes__subtitle">The Creamiest Creamy Chicken an...</h4>
+										<p class="other-recipes__text">By Andreas Paula</p>
+									</div>
+								</li>
+								<li class="other-recipes__item">
+									<img src="img/recipes_img7.png" alt="" class="other-recipes__img">
+									<div class="other-recipes__item-box">
+										<h4 class="other-recipes__subtitle">The Best Easy One Pot Chicken and Rice</h4>
+										<p class="other-recipes__text">By Andreas Paula</p>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<div class="div">
+							<article class="recipes__ads-card">
+								<div class="recipes__ads-box">
+									<p class="recipes__ads-title">
+										Don’t forget to eat
+										healthy food
+									</p>
+									<img src="img/ads-img.png" alt="" class="recipes__ads-img">
+									<a href="#" class="recipes__ads-link">www.foodieland.com</a>
+								</div>
+							</article>
+						</div>
 					</div>
 				</div>
 			</div>
 		</section>
-		<section class="categories">
+		<div class="directions">
 			<div class="container">
-				<div class="categories__text-box">
-					<h2 class="categories__title title">Categories</h2>
-					<a href="#" class="categories__more">View All Categories</a>
-				</div>
-				<div class="categories__box">
-					<ul class="categories__list">
-						<li class="categories__item">
-							<div class="categories__item-box">
-								<a href="#" class="categories__link">
-									<img src="img/breakfast.svg" alt="" class="categories__img">
-									<p class="categories__text">Breakfast</p>
-								</a>
-							</div>
+				<h2 class="directions__title title">Directions</h2>
+				<div class="directions__page">
+					<ul class="ingredients-list">
+						<li>
+							<label class="directions-item">
+								<input type="checkbox">
+								<span class="checkmark-directions"></span>
+								<div class="directions-item__box">
+									<h3 class="directions-item__title">1. Lorem ipsum dolor sit amet</h3>
+									<span class="directions-item__text">Nemo enim ipsam voluptatem quia voluptas sit aspernatur
+										aut
+										odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi
+										nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur,
+										adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam
+										aliquam quaerat voluptatem.</span>
+									<img src="img/directions-img.png" alt="" class="directions-item__img">
+								</div>
+							</label>
 						</li>
-						<li class="categories__item">
-							<div class="categories__item-box">
-								<a href="#" class="categories__link">
-									<img src="img/chocolate.svg" alt="" class="categories__img">
-									<p class="categories__text">Vegan</p>
-								</a>
-							</div>
+						<li>
+							<label class="directions-item">
+								<input type="checkbox">
+								<span class="checkmark"></span>
+								<div class="directions-item__box">
+									<h3 class="directions-item__title">2. Lorem ipsum dolor sit amet</h3>
+									<span class="directions-item__text">Nemo enim ipsam voluptatem quia voluptas sit aspernatur
+										aut
+										odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi
+										nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur,
+										adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam
+										aliquam quaerat voluptatem.</span>
+								</div>
+							</label>
 						</li>
-						<li class="categories__item">
-							<div class="categories__item-box">
-								<a href="#" class="categories__link">
-									<img src="img/lunch.svg" alt="" class="categories__img">
-									<p class="categories__text">Meat</p>
-								</a>
-							</div>
-						</li>
-						<li class="categories__item">
-							<div class="categories__item-box">
-								<a href="#" class="categories__link">
-									<img src="img/dessert.svg" alt="" class="categories__img">
-									<p class="categories__text">Dessert</p>
-								</a>
-							</div>
-						</li>
-						<li class="categories__item">
-							<div class="categories__item-box">
-								<a href="#" class="categories__link">
-									<img src="img/meat.svg" alt="" class="categories__img">
-									<p class="categories__text">Lunch</p>
-								</a>
-							</div>
-						</li>
-						<li class="categories__item">
-							<div class="categories__item-box">
-								<a href="#" class="categories__link">
-									<img src="img/vegan.svg" alt="" class="categories__img">
-									<p class="categories__text">Chocolate</p>
-								</a>
-							</div>
+						<li>
+							<label class="directions-item">
+								<input type="checkbox">
+								<span class="checkmark"></span>
+								<div class="directions-item__box">
+									<h3 class="directions-item__title">3. Lorem ipsum dolor sit amet</h3>
+									<span class="directions-item__text">Nemo enim ipsam voluptatem quia voluptas sit aspernatur
+										aut
+										odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi
+										nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur,
+										adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam
+										aliquam quaerat voluptatem.</span>
+								</div>
+
+							</label>
 						</li>
 					</ul>
 				</div>
 			</div>
-		</section>
-		<section class="recipes">
+		</div>
+		<section class="response">
 			<div class="container">
-				<div class="recipes__top">
-					<h2 class="recipes__title title">Simple and tasty recipes</h2>
-					<p class="recipes__text">Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor
-						incididunt ut labore et dolore magna aliqut enim ad minim </p>
-				</div>
-				<div class="recipes__block">
-					<article class="recipes__card ">
-						<a href="#" class="recipes__page">
-							<img src="img/recipes_img1.png" alt="" class="recipes__img">
-							<div class="recipes__item">
-								<h3 class="recipes__card-title">Big and Juicy Wagyu Beef Cheeseburger</h3>
-								<div class="recipes__links">
-									<a href="#" class=" recipes__link link">
-										<img src="img/timer.svg" alt="">
-										<p class="time__text">30 Minutes</p>
-									</a>
-									<a href="#" class="recipes__link link">
-										<img src="img/food.svg" alt="">
-										<p class="time__text">Chicken</p>
-									</a>
-								</div>
-							</div>
-						</a>
-					</article>
-					<article class="recipes__card">
-						<a href="#" class="recipes__page">
-							<img src="img/recipes_img2.png" alt="" class="recipes__img">
-							<div class="recipes__item">
-								<h3 class="recipes__card-title">Big and Juicy Wagyu Beef Cheeseburger</h3>
-								<div class="recipes__links">
-									<a href="#" class="recipes__link link">
-										<img src="img/timer.svg" alt="">
-										<p class="time__text">30 Minutes</p>
-									</a>
-									<a href="#" class="recipes__link link">
-										<img src="img/food.svg" alt="">
-										<p class="time__text">Chicken</p>
-									</a>
-								</div>
-							</div>
-						</a>
-					</article>
-					<article class="recipes__card">
-						<a href="#" class="recipes__page">
-							<img src="img/recipes_img3.png" alt="" class="recipes__img">
-							<div class="recipes__item">
-								<h3 class="recipes__card-title">Big and Juicy Wagyu Beef Cheeseburger</h3>
-								<div class="recipes__links">
-									<a href="#" class="recipes__link link">
-										<img src="img/timer.svg" alt="">
-										<p class="time__text">30 Minutes</p>
-									</a>
-									<a href="#" class="recipes__link link">
-										<img src="img/food.svg" alt="">
-										<p class="time__text">Chicken</p>
-									</a>
-								</div>
-							</div>
-						</a>
-					</article>
-					<article class="recipes__card">
-						<a href="#" class="recipes__page">
-							<img src="img/recipes_img4.png" alt="" class="recipes__img">
-							<div class="recipes__item">
-								<h3 class="recipes__card-title">Big and Juicy Wagyu Beef Cheeseburger</h3>
-								<div class="recipes__links">
-									<a href="#" class="recipes__link link">
-										<img src="img/timer.svg" alt="">
-										<p class="time__text">30 Minutes</p>
-									</a>
-									<a href="#" class="recipes__link link">
-										<img src="img/food.svg" alt="">
-										<p class="time__text">Chicken</p>
-									</a>
-								</div>
-							</div>
-						</a>
-					</article>
-					<article class="recipes__card">
-						<a href="#" class="recipes__page">
-							<img src="img/recipes_img5.png" alt="" class="recipes__img">
-							<div class="recipes__item">
-								<h3 class="recipes__card-title">Big and Juicy Wagyu Beef Cheeseburger</h3>
-								<div class="recipes__links">
-									<a href="#" class="recipes__link link">
-										<img src="img/timer.svg" alt="">
-										<p class="time__text">30 Minutes</p>
-									</a>
-									<a href="#" class="recipes__link link">
-										<img src="img/food.svg" alt="">
-										<p class="time__text">Chicken</p>
-									</a>
-								</div>
-							</div>
-						</a>
-					</article>
-					<article class="recipes__ads-card">
-						<div class="recipes__ads-box">
-							<p class="recipes__ads-title">
-								Don’t forget to eat
-								healthy food
-							</p>
-							<img src="img/ads-img.png" alt="" class="recipes__ads-img">
-							<a href="#" class="recipes__ads-link">www.foodieland.com</a>
-						</div>
-					</article>
-					<article class="recipes__card">
-						<a href="#" class="recipes__page">
-							<img src="img/recipes_img6.png" alt="" class="recipes__img">
-							<div class="recipes__item">
-								<h3 class="recipes__card-title">Big and Juicy Wagyu Beef Cheeseburger</h3>
-								<div class="recipes__links">
-									<a href="#" class="recipes__link link">
-										<img src="img/timer.svg" alt="">
-										<p class="time__text">30 Minutes</p>
-									</a>
-									<a href="#" class="recipes__link link">
-										<img src="img/food.svg" alt="">
-										<p class="time__text">Chicken</p>
-									</a>
-								</div>
-							</div>
-						</a>
-					</article>
-					<article class="recipes__card">
-						<a href="#" class="recipes__page">
-							<img src="img/recipes_img7.png" alt="" class="recipes__img">
-							<div class="recipes__item">
-								<h3 class="recipes__card-title">Big and Juicy Wagyu Beef Cheeseburger</h3>
-								<div class="recipes__links">
-									<a href="#" class="recipes__link link">
-										<img src="img/timer.svg" alt="">
-										<p class="time__text">30 Minutes</p>
-									</a>
-									<a href="#" class="recipes__link link">
-										<img src="img/food.svg" alt="">
-										<p class="time__text">Chicken</p>
-									</a>
-								</div>
-							</div>
-						</a>
-					</article>
-					<article class="recipes__card">
-						<a href="#" class="recipes__page">
-							<img src="img/recipes_img8.png" alt="" class="recipes__img">
-							<div class="recipes__item">
-								<h3 class="recipes__card-title">Big and Juicy Wagyu Beef Cheeseburger</h3>
-								<div class="recipes__links">
-									<a href="#" class="recipes__link link">
-										<img src="img/timer.svg" alt="">
-										<p class="time__text">30 Minutes</p>
-									</a>
-									<a href="#" class="recipes__link link">
-										<img src="img/food.svg" alt="">
-										<p class="time__text">Chicken</p>
-									</a>
-								</div>
-							</div>
-						</a>
-					</article>
-				</div>
-			</div>
-		</section>
-		<section class="teaching">
-			<div class="container">
-				<div class="teaching__box">
-					<div class="teaching__text-box">
-						<h2 class="teaching__title title">Everyone can be a
-							chef in their own kitchen</h2>
-						<p class="teaching__text text">Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod
-							tempor
-							incididunt ut labore et dolore magna aliqut enim ad minim </p>
-						<a href="#" class="teaching__link">Learn More</a>
+				<div class="response__container">
+					<div class="response__top">
+						<h2 class="response__top-title title">Deliciousness to your inbox</h2>
+						<p class="response__top-text">Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqut enim ad minim </p>
 					</div>
-					<div class="teaching__img-box">
-						<img src="img/teaching-img.svg" alt="" class="teaching__img">
+					<div class="response__textarea">
+						<input type="email" id="email" placeholder="Your email address...">
+						<button>Subscribe</button>
 					</div>
-				</div>
-			</div>
-		</section>
-		<section class="instagram">
-			<div class="container">
-				<div class="instagram__top">
-					<h2 class="instagram__title title">Check out @foodieland on Instagram</h2>
-					<p class="instagram__text text">Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod
-						tempor
-						incididunt ut labore et dolore magna aliqut enim ad minim </p>
-				</div>
-				<div class="instagram__img">
-					<img src="img/instagram-1.png" alt="" class="">
-					<img src="img/instagram-2.png" alt="" class="">
-					<img src="img/instagram-3.png" alt="" class="">
-					<img src="img/instagram-4.png" alt="" class="">
-				</div>
-				<div class="instagram__btn">
-					<a href="#" class="instagram__link">
-						<div class="instagram__btn-inner">
-							<p class="instagram__btn-text">Visit Our Instagram</p>
-							<img src="img/instagram-white.svg" alt="" class="instagram__btn-img">
-						</div>
-					</a>
 				</div>
 			</div>
 		</section>
 		<section class="offer">
 			<div class="container">
-				<div class="offer__top">
-					<h2 class="offer__title title">Try this delicious recipe
-						to make your day</h2>
-					<p class="offer__text text">
-						Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et
-						dolore magna aliqut enim ad minim
-					</p>
+				<div class="offer-recipes__top">
+					<h2 class="offer-recipes__title title">You may like these recipe too</h2>
 				</div>
 				<div class="offer__block">
 					<article class="offer__card ">
@@ -468,97 +448,13 @@
 							</div>
 						</a>
 					</article>
-					<article class="offer__card ">
-						<a href="#" class="offer__card-link">
-							<img src="img/offer-5.png" alt="" class="offer__card-img">
-							<div class="offer__card-item">
-								<h3 class="offer__card-title">Mixed Tropical Fruit Salad with Superfood Boosts</h3>
-								<div class="offer__links">
-									<a href="#" class=" offer__link link">
-										<img src="img/timer.svg" alt="">
-										<p class="time__text">30 Minutes</p>
-									</a>
-									<a href="#" class="offer__link link">
-										<img src="img/food.svg" alt="">
-										<p class="time__text">Chicken</p>
-									</a>
-								</div>
-							</div>
-						</a>
-					</article>
-					<article class="offer__card ">
-						<a href="#" class="offer__card-link">
-							<img src="img/offer-6.png" alt="" class="offer__card-img">
-							<div class="offer__card-item">
-								<h3 class="offer__card-title">Mixed Tropical Fruit Salad with Superfood Boosts</h3>
-								<div class="offer__links">
-									<a href="#" class=" offer__link link">
-										<img src="img/timer.svg" alt="">
-										<p class="time__text">30 Minutes</p>
-									</a>
-									<a href="#" class="offer__link link">
-										<img src="img/food.svg" alt="">
-										<p class="time__text">Chicken</p>
-									</a>
-								</div>
-							</div>
-						</a>
-					</article>
-					<article class="offer__card ">
-						<a href="#" class="offer__card-link">
-							<img src="img/offer-7.png" alt="" class="offer__card-img">
-							<div class="offer__card-item">
-								<h3 class="offer__card-title">Mixed Tropical Fruit Salad with Superfood Boosts</h3>
-								<div class="offer__links">
-									<a href="#" class=" offer__link link">
-										<img src="img/timer.svg" alt="">
-										<p class="time__text">30 Minutes</p>
-									</a>
-									<a href="#" class="offer__link link">
-										<img src="img/food.svg" alt="">
-										<p class="time__text">Chicken</p>
-									</a>
-								</div>
-							</div>
-						</a>
-					</article>
-					<article class="offer__card ">
-						<a href="#" class="offer__card-link">
-							<img src="img/offer-8.png" alt="" class="offer__card-img">
-							<div class="offer__card-item">
-								<h3 class="offer__card-title">Mixed Tropical Fruit Salad with Superfood Boosts</h3>
-								<div class="offer__links">
-									<a href="#" class=" offer__link link">
-										<img src="img/timer.svg" alt="">
-										<p class="time__text">30 Minutes</p>
-									</a>
-									<a href="#" class="offer__link link">
-										<img src="img/food.svg" alt="">
-										<p class="time__text">Chicken</p>
-									</a>
-								</div>
-							</div>
-						</a>
-					</article>
+
+
 				</div>
 			</div>
 
 		</section>
-		<section class="response">
-			<div class="container">
-				<div class="response__container">
-					<div class="response__top">
-						<h2 class="response__top-title title">Deliciousness to your inbox</h2>
-						<p class="response__top-text">Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod
-							tempor incididunt ut labore et dolore magna aliqut enim ad minim </p>
-					</div>
-					<div class="response__textarea">
-						<input type="email" id="email" placeholder="Your email address...">
-						<button>Subscribe</button>
-					</div>
-				</div>
-			</div>
-		</section>
+
 	</main>
 	<footer class="footer">
 		<div class="container">
