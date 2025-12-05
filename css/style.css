@@ -867,6 +867,10 @@ body {
 	justify-content: center;
 }
 
+.video-recipes__action-img {
+	width: 24px;
+	max-width: 100%;
+}
 
 
 .video-container {
