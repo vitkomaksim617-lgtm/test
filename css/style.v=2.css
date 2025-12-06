@@ -1348,6 +1348,7 @@ video {
 	border-radius: 20px;
 }
 
+/*-----------------------------------card----------------------------*/
 .card-box {
 	display: flex;
 	flex-direction: column;
@@ -1399,27 +1400,6 @@ video {
 	display: flex;
 	gap: 40px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*----------------------------------------PAGE3------------------------------------*/
 
@@ -1953,6 +1933,11 @@ video {
 	.blog-article__textarea {
 		padding-top: 0px;
 		flex-direction: column;
+	}
+
+	.pagination {
+		justify-content: center;
+		flex-wrap: wrap;
 	}
 }
 
