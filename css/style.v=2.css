@@ -100,13 +100,7 @@ html {
 	box-sizing: border-box;
 }
 
-*,
-*::after,
-*::before {
-	box-sizing: inherit;
-	padding: 0;
-	margin: 0;
-}
+
 
 
 /*-------------RESET--------------*/
@@ -1551,6 +1545,104 @@ video {
 
 /*----------------------------------------PAGE4------------------------------------*/
 
+/*----------------------------------------PAGE5------------------------------------*/
+
+.contact-section {
+	width: 100%;
+	max-width: 1200px;
+	margin: 80px auto;
+	padding: 0 20px;
+}
+
+.contact-title {
+	text-align: center;
+	font-size: 48px;
+	font-weight: 600;
+	margin: 80px 0;
+}
+
+.contact-wrapper {
+	display: flex;
+	align-items: start;
+	gap: 40px;
+	margin-bottom: 160px;
+}
+
+.contact-image img {
+	max-height: 470px;
+	max-width: 400px;
+	border-radius: 24px;
+	object-fit: cover;
+}
+
+.contact-form {
+	max-width: 840px;
+	width: 100%;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 24px;
+}
+
+.form-group {
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+}
+
+.form-group.full {
+	grid-column: span 2;
+}
+
+label {
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 167%;
+	letter-spacing: 0.08em;
+	text-transform: uppercase;
+	color: rgba(0, 0, 0, 0.6);
+}
+
+input,
+select,
+textarea {
+	width: 100%;
+	padding: 18px 20px;
+	border: 1px solid #e5e5e5;
+	border-radius: 16px;
+	font-size: 14px;
+}
+
+textarea {
+	min-height: 140px;
+	resize: none;
+}
+
+.submit-btn {
+	grid-column: span 2;
+	margin-top: 20px;
+	padding: 20px 63px;
+	background: #000;
+	color: #fff;
+	border: none;
+	border-radius: 16px;
+	justify-self: left;
+	font-weight: 600;
+	font-size: 16px;
+	transition: 0.3s;
+}
+
+.submit-btn:hover {
+	background: #333;
+}
+
+.top-input {
+	max-width: 400px;
+}
+
+
+
+/*----------------------------------------PAGE5------------------------------------*/
+
 /*----------------@media(max-width:---px)----------------*/
 
 @media(max-width:1315px) {
@@ -1815,6 +1907,10 @@ video {
 	.card-box {
 		gap: 10px;
 	}
+
+	.contact-image {
+		display: none;
+	}
 }
 
 @media(max-width:800px) {
@@ -1975,6 +2071,10 @@ video {
 	.response::after {
 		opacity: 0.4;
 	}
+
+	.submit-btn {
+		justify-self: center;
+	}
 }
 
 @media(max-width:560px) {
@@ -2102,6 +2202,13 @@ video {
 	.pagination {
 		justify-content: center;
 		flex-wrap: wrap;
+	}
+}
+
+@media(max-width:450px) {
+	.contact-form {
+		display: flex;
+		flex-direction: column;
 	}
 }
 
