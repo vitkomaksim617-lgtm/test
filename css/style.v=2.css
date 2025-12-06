@@ -1059,7 +1059,7 @@ video {
 	transition: 0.2s;
 }
 
-.ingredients-item input:checked+.checkmark-directions+.ingredients-item__text,
+.ingredients-item input:checked+.checkmark+.ingredients-item__text,
 .sauce-item input:checked+.checkmark+.sauce-item__text {
 	text-decoration: line-through;
 	opacity: 0.6;
