@@ -1593,7 +1593,7 @@ video {
 	grid-column: span 2;
 }
 
-label {
+.contact-label {
 	font-weight: 500;
 	font-size: 12px;
 	line-height: 167%;
@@ -1602,9 +1602,9 @@ label {
 	color: rgba(0, 0, 0, 0.6);
 }
 
-input,
-select,
-textarea {
+.contact-input,
+.form-group select,
+.contact-textarea {
 	width: 100%;
 	padding: 18px 20px;
 	border: 1px solid #e5e5e5;
@@ -1612,7 +1612,7 @@ textarea {
 	font-size: 14px;
 }
 
-textarea {
+.contact-textarea {
 	min-height: 140px;
 	resize: none;
 }
