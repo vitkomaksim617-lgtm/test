@@ -13,7 +13,3 @@ The design mockups were taken from free Figma templates.
 ## Live Demo
 [View Project](https://vitkomaksim617-lgtm.github.io/test/)
 
-## How to Run
-1. Clone the repository:
-   git clone https://github.com/vitkomaksim617-lgtm/test.git
-2. Open index.html in your browser.
