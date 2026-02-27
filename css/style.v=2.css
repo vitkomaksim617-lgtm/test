@@ -225,6 +225,12 @@ body {
 	margin-bottom: 92px;
 }
 
+.time__text {
+	line-height: 1.2;
+	display: flex;
+	align-items: center;
+}
+
 .link {
 	display: inline-flex;
 	padding: 8px 16px;
